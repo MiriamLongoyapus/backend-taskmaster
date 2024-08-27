@@ -7,9 +7,9 @@ class Task(models.Model):
         ('low', 'Low'),
     ]
 
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=250)
     description = models.TextField()
-    priority = models.CharField(max_length=50, choices=PRIORITY_CHOICES, default='medium')
+    priority = models.CharField(max_length=20, choices=PRIORITY_CHOICES, default='medium')
     due_date = models.DateField()
     completed = models.BooleanField(default=False)
 

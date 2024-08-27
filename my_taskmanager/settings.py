@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-t$^(fo%!mcnn#0y#+98^m@##)72z2tic#7!_e*t+psz!car!p6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['ngrok.io/https://9fc5-2c0f-2a80-10c2-d610-da37-c300-5051-732.ngrok-free.app']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -122,6 +123,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+CSRF_TRUSTED_ORIGINS = ['https://a014-2c0f-2a80-10c2-d610-da37-c300-5051-732.ngrok-free.app']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
