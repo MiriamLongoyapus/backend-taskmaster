@@ -10,8 +10,8 @@ Follow these steps to get the project up and running:
 
 Clone this repository to your local machine:
 Copy this code to your terminal
-git clone https://github.com/yourusername/task-manager-backend.git
-cd task-manager-backend
+git clone (https://github.com/MiriamLongoyapus/backend-taskmaster.git)
+cd backend-taskmaster
 Create and Activate a Virtual Environment
 
 It’s recommended to use a virtual environment to manage dependencies:
